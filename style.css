@@ -40,6 +40,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-attachment: fixed;
+    /* position: fixed; */
 }
 
 
@@ -48,21 +49,29 @@ nav {
     /* height: 61px; */
 }
 
-nav ul li {
+nav ul li{
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
    
 }
+nav ul li ul li{
+    display: none;
+}
+nav ul li ul li :hover{
+    display: inline;
+}
 
-nav ul li a {
+
+nav ul li a{
     text-decoration: none;
     color: #ffffff;
     font-size: 20px;
     position: relative;
+
 }
 
-nav ul li a::after {
+nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
@@ -75,19 +84,20 @@ nav ul li a::after {
 
 nav ul li a:hover::after {
     width: 100%;
+    /* transform: translateY(-5px); */
 }
 
-.h1 {
+.heading {
     margin-top: 20%;
     font-size: 30px;
 }
 
-.h1 h1 {
+.heading h1 {
     font-size: 60px;
     margin-top: 20px;
 }
 
-.h1 h1 span {
+.heading h1 span {
     color: #ff004f;
 }
 
@@ -206,10 +216,9 @@ nav ul li a:hover::after {
 .services-list div a {
     text-decoration: none;
     color: #ffffff;
-    font-size: 12px;
+    font-size: 15px;
     display: inline-block;
     margin-top: 20px;
-    
 }
 
 .services-list div:hover {
@@ -218,7 +227,7 @@ nav ul li a:hover::after {
     
 }
 
-/* -------------------------------------------------PORTFOLIO------------------------------------------------------------------- */
+/* -------------------------------------------------WORKS------------------------------------------------------------------- */
 #portfolio {
     padding: 50px 0;
 }
@@ -243,6 +252,11 @@ nav ul li a:hover::after {
     transform: 0.5s;
 }
 
+.work-1-img{
+    object-fit: cover;
+    width: 100%;
+    height:100%;
+}
 .layer {
     width: 100%;
     height: 0;
@@ -336,7 +350,9 @@ nav ul li a:hover::after {
     color: #ff004f;
     margin-right: 15px;
 }
-
+.contactleft.btn{
+    transform: translateY(-5px);
+}
 .socialicons {
     margin-top: 30px;
 }
@@ -383,9 +399,11 @@ form .btn2 {
     cursor: pointer;
     font-size: 18px;
     margin-top: 20px;
-
+    transition: transform 1s;
 }
-
+form .btn2:hover{
+    transform: translateY(-5px);
+}
 .copyright {
     width: 100%;
     text-align: center;
