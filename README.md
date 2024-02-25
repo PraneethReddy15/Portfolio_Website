@@ -46,10 +46,10 @@ To run the portfolio website locally, follow these steps:
 That's it! You have successfully cloned and run the portfolio website locally.
 
 ## Screenshots
+![Homepage Screenshot](files/screenshot.png)
+<!--![Projects Screenshot](screenshots/projects.png)
 ![Homepage Screenshot](screenshots/homepage.png)
-![Projects Screenshot](screenshots/projects.png)
-![Homepage Screenshot](screenshots/homepage.png)
-![Projects Screenshot](screenshots/projects.png)
+![Projects Screenshot](screenshots/projects.png) -->
 
 ## Contributing
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please feel free to open an issue or create a pull request.
