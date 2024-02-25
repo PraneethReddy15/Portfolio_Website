@@ -1,4 +1,4 @@
-# [Your Name]'s Portfolio Website
+# Praneeth's Portfolio Website
 
 Welcome to my portfolio website! This repository contains the source code for my personal portfolio website showcasing my projects, skills, and experience.
 
