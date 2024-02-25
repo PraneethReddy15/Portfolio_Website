@@ -34,7 +34,7 @@ cd my-portfolio
 ```
 3.Open the index.html file in your web browser.
 
-##Screenshots
+## Screenshots
 ![Homepage Screenshot](screenshots/homepage.png)
 ![Projects Screenshot](screenshots/projects.png)
 ![Homepage Screenshot](screenshots/homepage.png)
