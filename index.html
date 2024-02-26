@@ -28,10 +28,20 @@
                     <li><a href="#contact">Contact</a></li>
                     <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
+                <img src="./files/sun.png" id="icon">
                 <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
+            <div class="floating_nav">
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m12 5.69l5 4.5V18h-2v-6H9v6H7v-7.81zM12 3L2 12h3v8h6v-6h2v6h6v-8h3z"/></svg></a>
+                <a href="#about"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M11 9h2V7h-2m1 13c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2m-1 15h2v-6h-2z"/></svg></a>
+                <a href="#services"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M6 9a3 3 0 1 0 0-6a3 3 0 0 0 0 6Zm0-6V0m0 12V9M0 6h3m6 0h3M2 2l2 2m4 4l2 2m0-8L8 4M4 8l-2 2m16 2a3 3 0 1 0 0-6a3 3 0 0 0 0 6Zm0-6V3m0 12v-3m-6-3h3m6 0h3M14 5l2 2m4 4l2 2m0-8l-2 2m-4 4l-2 2m-5 8a3 3 0 1 0 0-6a3 3 0 0 0 0 6Zm0-6v-3m0 12v-3m-6-3h3m6 0h3M5 14l2 2m4 4l2 2m0-8l-2 2m-4 4l-2 2"/></svg></a>
+                <a href="#portfolio"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M16 17v8H6v-8zm0-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2m11-9v5H17V6zm0-2H17a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2m0 13v5h-5v-5zm0-2h-5a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h5a2 2 0 0 0 2-2v-5a2 2 0 0 0-2-2M11 6v5H6V6zm0-2H6a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h5a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2"/></svg></a>
+                <a href="#contact"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 12q-1.65 0-2.825-1.175T8 8q0-1.65 1.175-2.825T12 4q1.65 0 2.825 1.175T16 8q0 1.65-1.175 2.825T12 12m-8 8v-2.8q0-.85.438-1.562T5.6 14.55q1.55-.775 3.15-1.162T12 13q1.65 0 3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20z"/></svg></a>
+            </div>
+
+
             <div class="heading">
-                <p>Web Master</p>
+                <p>I'm a <span class="auto-input"></span></p>
                 <h1 class="header-text-h1">I'm <span>Praneeth</span><br>Welcome to my Webpage</h1>
             </div>
         </div>
@@ -45,7 +55,7 @@
                 </div>
                 <div class="column2">
                     <h1 class="subtitle">About me</h1>
-                    <p>🎓 Computer Science Engineering Student | CVR College of Engineering <br><br>
+                    <p class="about-desc">🎓 Computer Science Engineering Student | CVR College of Engineering <br><br>
                         About Me:
                         I'm a Computer Science Engineering student at CVR College of Engineering. With a passion for
                         technology and a knack for problem-solving, I'm on a journey to learn, grow, and contribute to
@@ -85,8 +95,6 @@
                     <div class="tab-content" id="education">
                         <ul>
                             <li><span>2021 - 2025</span><br>B.Tech(CSE) at CVR College Of Engineering</li>
-                            <!-- <li><span>Web Development</span><br>Web app development</li>
-                                <li><span>App Development</span><br>Building Android/iOS Apps</li> -->
                         </ul>
                     </div>
                 </div>
@@ -102,25 +110,26 @@
                 <div>
                     <i class="fa-solid fa-code"></i>
                     <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia nisi impedit provident rem
-                        pariatur culpa placeat vero minima deserunt expedita quia velit sapiente mollitia eligendi
-                        obcaecati itaque, quibusdam neque est?</p>
+                    <p>Design captivating, user-centric websites that reflect your brand's essence while ensuring
+                        seamless navigation and optimal performance across devices for enhanced user engagement and
+                        satisfaction.</p>
                     <a href="">Learn more</a>
                 </div>
                 <div>
                     <i class="fa-solid fa-database"></i>
                     <h2>Database Management</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore pariatur debitis velit ullam
-                        sapiente ducimus maiores praesentium esse ad, error adipisci! Quidem ipsum qui recusandae cumque
-                        quam, quas cum magni?</p>
+                    <p>Implement efficient database solutions to organize, store, and retrieve data systematically,
+                        ensuring data integrity, security, and scalability to support your business operations and
+                        decision-making processes effectively.</p>
                     <a href="">Learn more</a>
                 </div>
                 <div>
                     <i class="fa-brands fa-android"></i>
                     <h2>App Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorum provident, sunt hic nulla
-                        reiciendis quas architecto dolores ratione nam saepe, tempore, at possimus sed harum. Ducimus
-                        explicabo quod quia?</p>
+                    <p>Develop intuitive, visually appealing mobile applications that provide exceptional user
+                        experiences, leveraging cutting-edge design principles and technologies to enhance usability,
+                        functionality, and engagement for your target audience.
+                    </p>
                     <a href="">Learn more</a>
                 </div>
             </div>
@@ -210,6 +219,16 @@
         </footer>
     </div>
     <script src="./script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-input",{
+    strings:["Web Master","UI Designer","Full Stack Developer"],
+    typeSpeed:100,
+    backSpeed:150,
+    loop:true
+});
+    </script>
+
 </body>
 
 </html>
