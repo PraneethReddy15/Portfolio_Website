@@ -4,7 +4,7 @@ Welcome to my portfolio website! This repository contains the source code for my
 
 ## Live Demo
 
-You can view the live demo of my portfolio website [here](https://praneeth-portfolio-tan.vercel.app/).
+You can view the live demo of my portfolio website [here](https://praneethreddy.vercel.app/).
 
 ## Technologies Used
 
