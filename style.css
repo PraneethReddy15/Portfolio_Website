@@ -346,6 +346,9 @@ nav ul{
 .contactleft {
   flex-basis: 35%;
 }
+.mail a{
+  color:var(--white-to-black-color);
+}
 .contactmid {
   flex-basis: 0.5%;
   background-color: var(--red-to-purple-color);
@@ -437,6 +440,7 @@ form .btn2:hover {
   display: block;
   font-size: 20px;
 }
+
 .mail-a{
   text-decoration: none;
   color: #ffffff;
