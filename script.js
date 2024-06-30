@@ -47,10 +47,10 @@ icon.onclick=function()
     document.body.classList.toggle("light-theme");
     if(document.body.classList.contains("light-theme"))
     {
-        icon.src="./files/moon.png"
+        icon.src="./files/sun.png"
     }
     else{
-        icon.src="./files/sun.png"
+        icon.src="./files/moon.png"
 
     }
 }
