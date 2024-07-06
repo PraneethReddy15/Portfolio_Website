@@ -23,7 +23,7 @@ function closemenu()
 
 }
 // -------------- contact------------------
-const scriptURL = 'https://script.google.com/macros/s/AKfycbz390uXzIrD2dHtXGM8JrxSwp8oRXyfCKmE-WZdLLG_BzeFt8IyabKayoHJsr1Pdczy-g/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwP1zv15mAuQm2AgTAyrbysDXs7Dr8mH7z1jTFfzA8KkHunLO1rkIK5DAxhL06YFTeA1Q/exec'
 const form = document.forms['submit-to-google-sheet']
 const submitmsg=document.getElementById("submit-msg")
 
