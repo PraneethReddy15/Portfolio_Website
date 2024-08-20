@@ -58,4 +58,4 @@ Contributions are welcome! If you find any bugs or have suggestions for improvem
 This project is licensed under the MIT License - see the LICENSE file for details. -->
 
 ## Contact
-Feel free to reach out to me via email at ksaipraneethreddy123@gmail.com or connect with me on [LinkedIn](https://www.linkedin.com/in/k-sai-praneeth-reddy/)
+Feel free to reach out to me via email at ksaipraneethreddy123@gmail.com or connect with me on [LinkedIn](https://www.linkedin.com/in/k-sai-praneeth-reddy/) !
