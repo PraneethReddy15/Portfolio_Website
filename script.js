@@ -82,10 +82,10 @@ function closemenu()
 }
 //skills----------------------
 const icons = [
-    'android.png', 'bootstrap.png', 'C.png', 'css.png', 'Docker.png',
+    'android.png', 'bootstrap.png', 'C.png', 'css.png',
     'git.png', 'github.png', 'html.png', 'java.png', 'js.png',
     'linux.png', 'My-SQL.png', 'node-js.png', 'python.png', 'react.png',
-    'ruby.png', 'ubuntu.png', 'blockchain.png'
+     'ubuntu.png', 'blockchain.png'
 ];
 
 const container = document.getElementById('circle');
