@@ -659,6 +659,8 @@ nav .fas {
 }
 
 .skill {
+  text-decoration: none;
+  cursor: pointer;
   background-color: #2a2a2a;
   border-radius: 8px;
   padding: 10px 20px;
